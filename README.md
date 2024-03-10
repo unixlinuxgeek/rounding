@@ -1,4 +1,4 @@
-### Rounding utility
+### Go rounding utility
 
 Run tests:
 ```shell
