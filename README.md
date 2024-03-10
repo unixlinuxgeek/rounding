@@ -1,3 +1,5 @@
+![Go rounding utility](https://raw.githubusercontent.com/unixlinuxgeek/logos/main/256x256/go.png)
+
 ### Go rounding utility
 
 Run tests:
