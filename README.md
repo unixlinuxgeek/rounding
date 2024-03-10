@@ -5,7 +5,7 @@ Run tests:
 go test -test.v
 ```
 
-Example output:
+Example:
 ```shell
 $ go test -test.v
 === RUN   TestRound
