@@ -1,3 +1,5 @@
+![build](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 ![Go rounding utility](https://raw.githubusercontent.com/unixlinuxgeek/logos/main/256x256/go.png)
 
 ### Go rounding utility
