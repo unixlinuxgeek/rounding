@@ -2,6 +2,7 @@ package rounding
 
 import (
 	"math"
+	"math/rand"
 )
 
 // round to the nearest
@@ -17,4 +18,8 @@ func Ceil(x float64) float64 {
 // round down
 func Floor(x float64) float64 {
 	return math.Floor(x*100) / 100
+}
+
+func genRandomFloat(x, y float64) float64 {
+	return 1 + rand.Float64()*(x-y) // generate random float
 }
