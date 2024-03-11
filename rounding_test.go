@@ -1,12 +1,11 @@
 package rounding
 
 import (
-	"math/rand"
 	"testing"
 )
 
 func TestRound(t *testing.T) {
-	r := genRandomFloat()
+	r := genRandomFloat(1, 9)
 	t.Logf("Generate random float64 number(1-9): %f\n", r)
 
 	t.Logf("after round: %.3f", Ceil(r))
@@ -20,7 +19,7 @@ func TestRound(t *testing.T) {
 }
 
 func TestCeil(t *testing.T) {
-	r := genRandomFloat()
+	r := genRandomFloat(1, 9)
 	t.Logf("Generate random float64 number(1-9): %f\n", r)
 
 	t.Logf("after ceil: %f", Ceil(r))
@@ -34,7 +33,7 @@ func TestCeil(t *testing.T) {
 }
 
 func TestFloor(t *testing.T) {
-	r := genRandomFloat()
+	r := genRandomFloat(1, 9)
 	t.Logf("Generate random float64 number(1-9): %f\n", r)
 
 	t.Logf("after floor: %f", Ceil(r))
@@ -45,8 +44,4 @@ func TestFloor(t *testing.T) {
 	} else {
 		t.Log("Test Floor Passed!!!")
 	}
-}
-
-func genRandomFloat() float64 {
-	return 1 + rand.Float64()*(9-1) // generate random float
 }
