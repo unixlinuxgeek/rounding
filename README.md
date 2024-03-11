@@ -4,6 +4,32 @@
 
 ### Go rounding utility
 
+
+```shell
+go get github.com/unixlinuxgeek/round
+```
+
+Example:
+```shell
+package main
+
+import (
+	"fmt"
+	"github.com/unixlinuxgeek/rounding"
+)
+
+func main() {
+	ceil := rounding.Ceil(1.12345678)
+	fmt.Printf("ceil: %.2f\n", ceil)
+
+	rnd := rounding.Round(1.12345678)
+	fmt.Printf("round: %.2f\n", rnd)
+
+	fl := rounding.Floor(1.12345678)
+	fmt.Printf("floor: %.2f\n", fl)
+}
+```
+
 Run tests:
 ```shell
 go test -test.v
