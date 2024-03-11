@@ -1,5 +1,5 @@
 ![push](https://github.com/unixlinuxgeek/rounding/actions/workflows/main.yml/badge.svg?event=push)
-
+![workflow](https://github.com/unixlinuxgeek/rounding/actions/workflows/main.yml/badge.svg)
 
 ![Go rounding utility](https://raw.githubusercontent.com/unixlinuxgeek/logos/main/256x256/go.png)
 
